@@ -180,15 +180,14 @@ header{
 .footer{ background-color:var(--navy-blue); padding:100px 0; }
 .footer-wrap{
   display:flex;
-  align-items:flex-start;
-  gap:120px;
+  align-items:baseline;
 }
 .footer-link{
   display:inline-block; margin-bottom:16px;
   font-family:"Raleway",sans-serif; font-weight:700; font-size:18px; line-height:1.17;
   letter-spacing:.03em; text-transform:uppercase; color:var(--iris);
 }
-.footer-brand{ flex-shrink:0; }
+.footer-brand{ flex-shrink:0; margin-right:120px; }
 .logo-span-footer{ color:var(--cloud); }
 .footer-text {
   max-width: 264px;
@@ -203,7 +202,7 @@ header{
   font-weight: 500;
   margin: 0 0 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em;}
 .footer-socials {
   display: flex;
   gap: 16px;
