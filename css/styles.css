@@ -233,5 +233,5 @@ header{
 
 .footer-social-icon {
   display: block;
-  fill: var(--cloud);
+  fill: var(--cloud) !important;
 }
