@@ -178,13 +178,17 @@ header{
 
 /* ========== FOOTER ========== */
 .footer{ background-color:var(--navy-blue); padding:100px 0; }
-.footer-wrap{ display:flex; align-items:baseline; }
+.footer-wrap{
+  display:flex;
+  align-items:flex-start;
+  gap:120px;
+}
 .footer-link{
   display:inline-block; margin-bottom:16px;
   font-family:"Raleway",sans-serif; font-weight:700; font-size:18px; line-height:1.17;
   letter-spacing:.03em; text-transform:uppercase; color:var(--iris);
 }
-.footer-brand{ margin-right:120px; }
+.footer-brand{ flex-shrink:0; }
 .logo-span-footer{ color:var(--cloud); }
 .footer-text {
   max-width: 264px;
