@@ -186,21 +186,20 @@ header{
 }
 .footer-brand{ margin-right:120px; }
 .logo-span-footer{ color:var(--cloud); }
-.footer-text{
-  max-width:264px;
-  font-size:16px;
-  line-height:1.5;
-  letter-spacing:0.02em;
-  color:var(--cloud);
+.footer-text {
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
 }
 
-.footer-title{
-  color:var(--white);
-  font-weight:500;
-  margin:0 0 16px;
-  line-height:1.5;
-  letter-spacing:0.02em;
-}
+.footer-title {
+  color: var(--white);
+  font-weight: 500;
+  margin: 0 0 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 .footer-socials{ gap:16px; justify-content:flex-start; margin-top:0; }
 .footer-socials .social-link{ width:40px; height:40px; background-color:var(--iris); }
 .footer-socials .social-link:hover,
